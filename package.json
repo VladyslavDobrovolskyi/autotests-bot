@@ -1,0 +1,33 @@
+{
+  "name": "jest-npm-cjs-js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "pretest": "rimraf ./allure-results",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@jest/globals": "^29.7.0",
+    "allure-jest": "^3.0.6",
+    "allure-js-commons": "^3.0.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-circus": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-environment-node": "^29.7.0",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "supertest": "^7.0.0",
+    "telegraf": "^4.16.3"
+  }
+}
